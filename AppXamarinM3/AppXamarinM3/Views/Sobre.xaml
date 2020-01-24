@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinM3.Views.Sobre"
+             Title="Sobre">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Sobre"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"/>
+            <Label x:Name="lbPath" Text=""/>
+            <Label x:Name="lbName" Text=""/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

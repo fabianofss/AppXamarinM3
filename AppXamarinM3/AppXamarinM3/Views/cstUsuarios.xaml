@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinM3.Views.cstUsuarios"
+             Title="Consulta Usuários">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Consulta de usuários!"
+                   HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btInserir" Text="+" FontSize="Large" Clicked="BtInserir_Clicked" />
+            <Button x:Name="btListar" Text="Listar Usuários" FontSize="Large" Clicked="BtListar_Clicked" />
+            <Label x:Name="lblStatus" Text="Status" HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="lvUsers">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding name}" Detail="{Binding email}" TextColor="Blue" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

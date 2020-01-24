@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinM3.Views.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="LOGIN"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"/>
+            <Entry x:Name="etLogin" Placeholder="Usuário" />
+            <Entry x:Name="etSenha" Placeholder="Senha" IsPassword="True"/>
+            <Button Text="ACESSAR" Clicked="btLogin_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
