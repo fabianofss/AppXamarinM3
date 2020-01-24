@@ -21,6 +21,7 @@ namespace AppXamarinM3.Models
             public string senha { get; set; }
             public string level { get; set; }
             public string pontuacao { get; set; }
+            public string dt_update { get; set; }
         }
 
     }

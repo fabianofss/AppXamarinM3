@@ -24,6 +24,7 @@ namespace AppXamarinM3
             // incluindo items de menu e definindo : title ,page and icon
             menuList.Add(new MasterPageItem() {Title = "Home",Icon = "home.png",TargetType =typeof(Home)});
             menuList.Add(new MasterPageItem() { Title = "Usuários", Icon = "home.png", TargetType = typeof(cstUsuarios) });
+            menuList.Add(new MasterPageItem() { Title = "Sincronizar", Icon = "home.png", TargetType = typeof(Sincronizar) });
             menuList.Add(new MasterPageItem() { Title = "Sobre", Icon = "home.png", TargetType = typeof(Sobre) });
 
             // Configurando o ItemSource fpara o ListView na MainPage.xaml

@@ -14,6 +14,9 @@ namespace AppXamarinM3.Models
         public string login { get; set; }
         public string senha { get; set; }
         public string email { get; set; }
+        public string level { get; set; }
+        public string pontuacao { get; set; }
+        public string dt_update { get; set; }
 
         public Usuarios()
         {
@@ -22,6 +25,9 @@ namespace AppXamarinM3.Models
             login = "";
             senha = "";
             email = "";
+            level = "";
+            pontuacao = "";
+            dt_update = "";
         }
     }
 }

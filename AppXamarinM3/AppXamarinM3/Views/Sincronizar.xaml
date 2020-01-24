@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppXamarinM3.Views.Sincronizar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tela para sincronizar dados do servidor com o armazenamento local"
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnUsuarios" Text="Usuários" Clicked="BtnUsuarios_Clicked" />
+            <Label x:Name="lblStatus" Text="" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
